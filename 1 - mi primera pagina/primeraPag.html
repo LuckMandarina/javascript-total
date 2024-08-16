@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi primera pagina</title>
+
+    <style>
+        body {
+            background-color: moccasin;
+        }
+    </style>    
+</head>
+
+<body>
+
+    <script>
+        function ponertituloRojo() {
+             document.getElementById("titulo").style = "color: red"
+        }
+        function ponertituloNegro() {
+            document.getElementById("titulo").style = "color: black"
+        }
+    </script>
+       
+       <h1 id="titulo" onmouseover="ponertituloRojo()" onmouseout="ponertituloNegro()">Bienvenido a javascriptTotal</h1>
+       <h2>El primer paso es el más grande</h2>
+       <p>Pagina muy sensilla</p>
+       <p>(Pero tiene un secreto >>> Press F12)</p>
+</body>
+
+</html>
