@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Galeria de imagenes</title>
+    <link rel="stylesheet" href="Deco.css">
+</head>
+<body>
+    <div class="full-img" id="fullimgbox">
+        <img src="Imagenes/1.jpg" id="fullimg" alt="xd">
+        <span onclick="closeImg()">X</span>
+    </div>
+    
+    <h1><span>Image Gallery</span></h1>
+    <div class="img-gallery">
+        <img src="Imagenes/1.jpg" onclick="openFullimg(this.src)" alt="Imagen 1">
+        <img src="Imagenes/2.jpg" onclick="openFullimg(this.src)" alt="Imagen 2">
+        <img src="Imagenes/3.jpg" onclick="openFullimg(this.src)" alt="Imagen 3">
+        <img src="Imagenes/4.jpg" onclick="openFullimg(this.src)" alt="Imagen 4">
+        <img src="Imagenes/5.jpg" onclick="openFullimg(this.src)" alt="Imagen 5">
+        <img src="Imagenes/6.jpg" onclick="openFullimg(this.src)" alt="Imagen 6">
+        <img src="Imagenes/7.jpg" onclick="openFullimg(this.src)" alt="Imagen 7">
+        <img src="Imagenes/8.jpg" onclick="openFullimg(this.src)" alt="Imagen 8">
+    </div>
+
+
+    <script src="Dinamic.js"></script>
+</body>
+</html>  
